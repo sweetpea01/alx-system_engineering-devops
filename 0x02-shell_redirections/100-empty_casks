@@ -1,3 +1,4 @@
 #!/bin/bash
-find . -type f -empty -printf '%P\n' 2>/dev/null; find . -type d -empty -printf '%P\n' 2>/dev/null
+find . -type f -empty -printf "%P\n" ; find . -type d -empty -printf "%P\n"
+
 
