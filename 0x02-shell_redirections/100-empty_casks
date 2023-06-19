@@ -1,5 +1,6 @@
 #!/bin/bash
-find ./ -type d -empty -printf "%f\n" ; find ./ -type f -empty -printf "%f\n"
+find ./ -type d -empty ; find ./ -type f -empty
+
 
 
 
