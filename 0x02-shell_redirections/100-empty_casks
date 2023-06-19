@@ -1,4 +1,5 @@
 #!/bin/bash
-find . -type f -empty -printf "%P\n" ; find . -type d -empty -printf "%P\n"
+find . -type d -empty -print -o -type f -empty -print
+
 
 
